@@ -10,3 +10,9 @@ header {
 section {
   padding: 150px 0;
 }
+
+.headLead {
+    text-align: center;
+    padding-left: 100px ;
+    padding-right: 100px ;
+}
