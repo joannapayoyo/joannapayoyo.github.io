@@ -7,6 +7,16 @@ header {
   padding: 156px 0 100px;
 }
 
+header h1 {
+/*    background-color: rgb(255,255,255,.4);*/
+        padding: 0;
+}
+
+.header_img {
+    background-image: url("../images/CastleMountainSplash2.jpg");
+    background-size:cover;
+}
+
 section {
   padding: 150px 0;
 }
