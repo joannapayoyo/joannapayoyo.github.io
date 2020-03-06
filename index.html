@@ -33,7 +33,7 @@
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Projects</a>
+            <a class="nav-link js-scroll-trigger" href="#prosfera">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -59,9 +59,9 @@
             
             Below are samples of my programming work including:
             <ul>
-                <li><b>Prosfera</b> - a donation management Android application created using Java and Android Studio</li>
-                <li><b>Twitter Sentiment Analysis</b> - I analysed tweets about Women in Technology using Python and JupyterLab</li>
-                <li></li>
+                <li><a href="#prosfera"><b>Prosfera</b></a> - a donation management Android application created using Java and Android Studio</li>
+                <li><a href="#twitter"><b>Twitter Sentiment Analysis</b></a> - I analysed tweets about Women in Technology using Python and JupyterLab</li>
+                <li><a href="#morse"><b>Morse Code with Binary Search Tree</b></a> - Morse Code encoder and decoder using a Binary Search Tree written in Java</li>
             </ul>
             
             <p>If you have any questions about my work, please see <a href="#contact">my contact information</a> below or <a href="http://linkedin.com/in/joannapayoyo/">connect with me on LinkedIn</a>.</p>
@@ -70,12 +70,69 @@
     </div>
   </section>
 
-  <section id="services" class="bg-light">
+  <section id="prosfera" class="bg-light">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>Services we offer</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+          <h2>Prosfera</h2>
+            <p class="lead"><a href="https://github.com/joannapayoyo/Prosfera/tree/master/app/src/main/java/com/example/prosfera">Click here for the repository.</a></p>
+            <p>
+            <iframe class="embed-youtube" src="https://www.youtube.com/embed/BnaKsZcPofU" 
+                width="560" 
+                height="315"
+                frameborder="0" 
+                allowfullscreen>
+            </iframe>
+            </p>
+          <p class="lead">Prosfera is a donation management Android application designed for charities to keep track and promote the donations to serve people in need.</p>
+            <p>My team and I created this app for our Software Engineering class. My role in the team was primarily the Scrum Master as well as developer.</p>
+            <p>My largest programming contributions can be found in my repository in the <a href="https://github.com/joannapayoyo/Prosfera/blob/master/app/src/main/java/com/example/prosfera/RecyclerViewAdapter.java">RecyclerViewAdapter</a>, <a href="https://github.com/joannapayoyo/Prosfera/blob/master/app/src/main/java/com/example/prosfera/BasketItemList.java">BasketItemList</a>, and the <a href="https://github.com/joannapayoyo/Prosfera/blob/master/app/src/main/java/com/example/prosfera/GiftBasket.java">GiftBasket</a> classes.</p>
+            <p>What I learned:</p>
+            <ul>
+                <li>Android app development with Java</li>
+                <li>How to use Android studio</li>
+                <li>Pair programming</li>
+                <li>Version control using GitHub</li>
+            </ul>
+            <p>The biggest challenges I faced were managing the group's limited time with our expectations of the final product and resolving conflicts between team members. I was able to solve these issues with constant communication, as per Agile practices, and offering support with empathy to team members.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+    <section id="twitter">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Twitter Sentiment Analysis</h2>
+          <p class="lead"><a href="https://github.com/joannapayoyo/TwitterSentimentAnalysis">Click here for the repository.</a></p>
+          <p>
+            <img class="img-fluid" src="SentimentAnalysis.png" alt="Sentiment Analysis">  
+          </p>
+          <p class="lead">I explored the sentiment of tweets about Women in Technology using data mining tools and techniques.</p>
+            <p>Since I decided to start a career in technology, I’ve become more aware with issues regarding a woman’s place in this field. I wanted to find out what the general public was saying about women in technology. I chose Twitter because people use it for two main things: 1) keep up with current events and 2) to tell people what they are thinking about and have discussions about the above topics.</p>
+            <p>The code to grab Tweets and perform the sentiment analysis can be found <a href="https://github.com/joannapayoyo/TwitterSentimentAnalysis/blob/master/SentimentAnalysis.ipynb">here</a>. I repurposed existing code made by another student for the Get Tweets section and tailored it to my needs.</p>
+            
+            <p>I used the Pandas library to clean the tweets and used the TextBlob library to conduct the sentiment analysis. I used the Matplotlib library to graph my findings and the Wordcloud library to see the most popular words in the tweets.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+    <section id="morse" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Morse Code with Binary Search Tree</h2>
+          <p class="lead"><a href="">Click here for the repository.</a></p>
+          <p class="lead">DESCRIPTION</p>
+            <p>Why</p>
+            <p>The code can be found <a href="">here</a>.</p>
+            <p>What I learned:</p>
+            <ul>
+                <li></li>
+            </ul>
+            <p>The biggest challenges .</p>
         </div>
       </div>
     </div>
@@ -96,7 +153,7 @@
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      <p class="m-0 text-center text-white">Copyright &copy; Joanna Payoyo 2020</p>
     </div>
     <!-- /.container -->
   </footer>
